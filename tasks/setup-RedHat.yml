@@ -1,0 +1,19 @@
+---
+- name: Import jenkins-ci.org gpg key
+  rpm_key:
+    key: http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+  become: true
+
+- name: Configure YUM repo of jenkins-ci.org
+  get_url:
+    url: "{{ jenkins_repo[jenkins_version].url }}"
+    dest: /etc/yum.repos.d/jenkins.repo
+    mode: "ugo-x"
+  become: true
+
+- name: Install RPM package
+  yum: name=jenkins state=installed
+  become: true
+
+- name: Ensure Jenkins is started
+  service: name=jenkins state=started enabled=yes

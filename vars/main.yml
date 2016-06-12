@@ -1,0 +1,9 @@
+---
+jenkins_supported_platforms:
+  - RedHat
+
+jenkins_repo:
+  latest:
+    url: http://pkg.jenkins-ci.org/redhat/jenkins.repo
+  stable:
+    url: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo

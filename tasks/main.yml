@@ -1,0 +1,9 @@
+---
+- name: Assert platform is supported
+  assert:
+    that:
+      - ansible_os_family in jenkins_supported_platforms
+
+# setup / install tasks
+- include: setup-RedHat.yml
+  when: ansible_os_family == 'RedHat'

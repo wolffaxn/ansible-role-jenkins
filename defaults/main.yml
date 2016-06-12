@@ -1,0 +1,7 @@
+---
+# 'latest' or 'stable'
+jenkins_version: stable
+
+jenkins_plugins:
+  - git
+  - github
