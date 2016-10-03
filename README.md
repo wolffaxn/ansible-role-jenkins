@@ -1,5 +1,7 @@
 # Ansible Role - Jenkins CI
 
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/wolffaxn/ansible-role-jenkins/master/LICENSE)
+
 Installs Jenkins CI for RedHat/CentOS linux servers.
 
 ## Requirements
