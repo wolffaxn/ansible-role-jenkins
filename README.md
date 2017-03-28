@@ -29,8 +29,4 @@ For RHEL / CentOS
 ```
 ## License
 
-MIT
-
-## Author Information
-
-This role was created by Alexander Wolff.
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file.
