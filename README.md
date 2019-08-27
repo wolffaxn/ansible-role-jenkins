@@ -3,6 +3,19 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/wolffaxn/ansible-role-jenkins/master.svg)](https://github.com/wolffaxn/ansible-role-jenkins)
 
+**Table of Contents**
+
+<!-- toc -->
+
+- [About](#about)
+- [Requirements](#requirements)
+- [Role Variables](#role-variables)
+- [Dependencies](#dependencies)
+- [Example Playbook](#example-playbook)
+- [License](#license)
+
+<!-- tocstop -->
+
 ## About
 
 Installs Jenkins CI for RedHat/CentOS linux servers.
@@ -30,6 +43,7 @@ For RHEL / CentOS
   roles:
     - ansible-role-jenkins
 ```
+
 ## License
 
 This project is licensed under the terms of the [MIT license](LICENSE).
